@@ -1,6 +1,6 @@
 describe("Thumb", function() {
   it("|origin expect 0", function() {
-    var thumb =  $.thumb();
+    var thumb =  $.thumb(0, '#thumb');
     expect(thumb.getPraiseCount()).toBe(0);
   });
 
